@@ -1,0 +1,49 @@
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: serif;
+    background: rgba(128, 128, 128, 0.459);
+    box-sizing: border-box;
+}
+
+#timer-1 {
+  margin:0 auto;
+  padding-top: 200px;
+  width: 500px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+
+}
+.field {
+    width: 20%;
+
+
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.74);
+    flex-direction: column;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.01em;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    box-shadow: 6px 8px 0px 2px rgba(94, 94, 94, 0.521)
+
+}
+.value {
+
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.label {
+    font-size: 18px;
+    color: gray;
+    font-family: serif;
+}
